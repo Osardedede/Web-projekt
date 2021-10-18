@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: darkcyan;
+    height: 100px;
+    color: white;
+}
+
+
+
+nav {
+    background-color: cornsilk;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-evenly;
+
+}
+
+
