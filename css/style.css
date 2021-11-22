@@ -20,9 +20,12 @@ header {
 }
 
 nav {
+  display: flex;
   background-color: cornsilk;
   height: 30px;
   justify-content: center;
+  justify-content: space-around;
+
 }
 
 
@@ -30,10 +33,12 @@ header h1 {
   display: flex;
   text-decoration: none;
   color: white;
+  background-color: black;
   justify-content: center;
   padding: 25px;
   
 }
+
 
 nav a {
   text-decoration: none;
