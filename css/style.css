@@ -25,6 +25,7 @@ nav {
   height: 30px;
   justify-content: center;
   justify-content: space-around;
+  align-items: center;
 
 }
 
@@ -36,6 +37,7 @@ header h1 {
   background-color: black;
   justify-content: center;
   padding: 25px;
+  align-items: center;
   
 }
 
