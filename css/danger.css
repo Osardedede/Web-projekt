@@ -42,35 +42,38 @@ nav {
     font-size: large;
   }
 
+
   .underline {
     text-decoration: underline;
   }
 
   .main{
     display: flex;
-    margin: 10px;
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
-
+   margin-top: 10px;
 }
 
   .textrutaHöger{
-      /* width: 25%; */
       display: flex;
       flex-direction:column;
       justify-content: flex-end;
       background-color: cadetblue;
       flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-right: 10px;
 
   }
 .huvudtext h1{
-    
+    width: 100%;
+    display: flex;
     background-color: cornsilk;
-    margin: 0%;
-    padding: 0%;
+    justify-content: center;
+    align-items: center;
 }
 
 .huvudtext h2{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
     background-color: cornsilk;
 }
 
@@ -79,6 +82,3 @@ nav {
       display: flex;
       flex-wrap: wrap;
   }
-.bakrund{
-    background-color: wheat;
-}
