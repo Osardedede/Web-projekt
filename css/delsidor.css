@@ -58,11 +58,17 @@ nav a {
 .text {
   margin: 10px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: center;
   color: white;
   background-color: darkcyan;
   font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.text h2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 

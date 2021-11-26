@@ -1,0 +1,64 @@
+
+body{
+  background-color: rgb(179, 233, 187);
+}
+
+header {
+    background-image: url(/bilder/yoal-desurmont-jqgsM3B9Fpo-unsplash\ \(1\).jpg);
+    display: flex;
+    background-size:cover;
+    background-color: darkcyan;
+    color: white;
+    text-decoration: none;
+    height: 100px;
+    justify-content: center;
+  
+  }
+
+  header h1 {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 25px;
+    align-items: center;
+    
+  }
+  
+  nav {
+    display: flex;
+    background-color: cornsilk;
+    height: 30px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+  }
+.bildEtt{
+  display: flex;
+  flex-grow: 4;
+
+}
+.textrutaEtt{
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 10px;
+    background-color: cornsilk;
+  }
+  .textrutaTvå{
+    margin-top: 10px;
+display: flex;
+width: fit-content;
+  }
+
+.bild{
+  display: flex;
+  order: 3;
+}
